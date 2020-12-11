@@ -7,6 +7,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
+    <EditText
+        android:id="@+id/lblOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/opciones"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
     <ListView
         android:id="@+id/lstOpciones"
         android:layout_width="match_parent"

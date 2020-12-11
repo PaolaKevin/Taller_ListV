@@ -12,4 +12,11 @@
     <string name="valor2">Valor Lado Dos</string>
     <string name="calcularR">Calcular</string>
     <string name="titulo_areas">Areas</string>
+    <string name="volumenes">Volumenes</string>
+    <string name="opciones">Opciones</string>
+    <string name="operaciones_realizadas">Operaciones Realizadas</string>
+    <string name="resultado_area_cuadrado">Resultado</string>
+    <string name="ok">OK</string>
+    
+    <string-array name=""
 </resources>
