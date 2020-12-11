@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Taller_ListV</string>
+    <string name="titulo_cuadrado">CUADRADO</string>
+    <string name="valor_lado_cuadrado">Valor del Lado</string>
+    <string name="valor">Valor</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="rectangulo">Rectangulo</string>
+    <string name="lado_uno">Lado uno</string>
+    <string name="valor_1">Valor Lado Uno</string>
+    <string name="lado2">Valor Lado Dos</string>
+    <string name="valor2">Valor Lado Dos</string>
+    <string name="calcularR">Calcular</string>
+    <string name="titulo_areas">Areas</string>
 </resources>
