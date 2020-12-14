@@ -5,21 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Volumenes">
+    tools:context=".CalcularT">
 
     <EditText
-        android:id="@+id/lblVolumenes"
+        android:id="@+id/lblTriangulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/volumenes"
+        android:text="@string/titulo_triangulo"
         android:textAlignment="center"
         android:textSize="36sp"
         android:textStyle="bold" />
-
-    <ListView
-        android:id="@+id/lstVolumenes"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 </LinearLayout>

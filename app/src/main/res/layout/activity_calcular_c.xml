@@ -5,21 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Volumenes">
+    tools:context=".CalcularC">
 
     <EditText
-        android:id="@+id/lblVolumenes"
+        android:id="@+id/lblCirculo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/volumenes"
+        android:text="@string/titulo_circulo"
         android:textAlignment="center"
+        android:textAllCaps="true"
         android:textSize="36sp"
         android:textStyle="bold" />
-
-    <ListView
-        android:id="@+id/lstVolumenes"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 </LinearLayout>

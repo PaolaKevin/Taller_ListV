@@ -10,12 +10,13 @@
         android:id="@+id/lblAreas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/titulo_areas"
+        android:text="@string/areas"
         android:textAlignment="center"
         android:textSize="36sp"
         android:textStyle="bold" />
 
     <ListView
+        android:id="@+id/lstAreas"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

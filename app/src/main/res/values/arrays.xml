@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opcion">Opcion</string-array>
+    <string-array name="area">Area</string-array>
+    <string-array name="volumen">Volumen</string-array>
+</resources>

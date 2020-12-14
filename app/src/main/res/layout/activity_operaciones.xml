@@ -13,29 +13,55 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/operaciones_realizadas"
+        android:text="@string/operaciones"
         android:textAlignment="center"
         android:textSize="36sp"
         android:textStyle="bold" />
 
     <TableLayout
+        android:id="@+id/tblOperaciones"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:stretchColumns="*">
 
         <TableRow
+            android:id="@+id/flEnunciados"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/lblNumero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_numero"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/lblOperacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_operaciones"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/lblDatos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_datos"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_resultado_operacion"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
     </TableLayout>
 </LinearLayout>

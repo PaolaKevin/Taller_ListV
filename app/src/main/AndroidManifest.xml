@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Taller_ListV">
-        <activity android:name=".CalcularR"></activity>
+        <activity android:name=".CalcularC"></activity>
+        <activity android:name=".CalcularT" />
+        <activity android:name=".CalcularR" />
         <activity android:name=".Resultado" />
         <activity android:name=".Calcular" />
         <activity android:name=".Operaciones" />
