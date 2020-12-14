@@ -4,20 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Areas">
 
-    <TextView
+    <EditText
         android:id="@+id/lblAreas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
         android:text="@string/areas"
         android:textAlignment="center"
+        android:textColor="#151515"
         android:textSize="36sp"
         android:textStyle="bold" />
 
     <ListView
-        android:id="@+id/lstAreas"
+        android:id="@+id/lstArea"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 </LinearLayout>
